@@ -15,7 +15,7 @@ phases:
     commands:
       - echo Running tests
       - npm run test
-      - Echo packaging the service
+      - echo packaging the service
       - serverless package --package my-artifact --stage dev
 artifacts:
   files:
